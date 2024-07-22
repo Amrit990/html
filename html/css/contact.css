@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('/html/images/hero-img.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1000px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.login-box {
+    width: 40%;
+}
+.faq-section{
+    background-color: #3b5998;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+.social-login {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-login p {
+    margin-bottom: 10px;
+}
+
+.social-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.social-button.google {
+    background-color: #db4437;
+    color: white;
+}
+
+.social-button.microsoft {
+    background-color: #2b579a;
+    color: white;
+}
+
+.social-button.facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+
